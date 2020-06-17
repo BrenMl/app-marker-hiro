@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
-</head>
-<body>
+<html>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <!-- we import arjs version without NFT but with marker + location based support -->
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs>
-        <a-entity scale=".2 .2 2">
-            <a-entity gltf-model="model.gltf" scale="0.6 0.6 0.6">
-            </a-entity>
-            <a-marker-camera preset='hiro'></a-marker-camera>
-        </a-entity>
+      <a-marker preset="hiro">
+        <a-entity
+          position="0 0 0"
+          scale="0.05 0.05 0.05"
+          gltf-model="assets/modelo2/model.gltf"
+        ></a-entity>
+      </a-marker>
+      <a-entity camera></a-entity>
     </a-scene>
-    
-</body>
+  </body>
 </html>
