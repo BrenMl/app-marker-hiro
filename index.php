@@ -9,7 +9,7 @@
         <a-entity
           position="0 0 0"
           scale="0.2 0.2 0.2"
-          gltf-model="assets/modelo4/shlyakhtynci_planuvannya_v4.gltf"
+          gltf-model="assets/modelo3/model.gltf"
           animation-mixer
         ></a-entity>
       </a-marker>
