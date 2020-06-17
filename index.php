@@ -9,7 +9,8 @@
         <a-entity
           position="0 0 0"
           scale="0.5 0.5 0.5"
-          gltf-model="assets/modelo3/model.gltf"
+          gltf-model="assets/modelo2/model.gltf"
+          animation-mixer
         ></a-entity>
       </a-marker>
       <a-entity camera></a-entity>
