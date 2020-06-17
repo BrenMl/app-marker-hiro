@@ -8,7 +8,7 @@
       <a-marker preset="hiro">
         <a-entity
           position="0 0 0"
-          scale="0.5 0.5 0.5"
+          scale="5 5 5"
           gltf-model="assets/modelo4/shlyakhtynci_planuvannya_v4.gltf"
           animation-mixer
         ></a-entity>
